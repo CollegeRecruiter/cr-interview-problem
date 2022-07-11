@@ -18,7 +18,8 @@ The requirements for the API are as follows:
 2. The API should contain a `/end` to end the conversion.
 3. The API should provide a `/status` endpoint to provide the progress of the the conversion .
 4. The API should contain a `/result` to download the converted file at any time in the process.
-4a. The result should return the file at any stage of the conversion process.
+
+    4a. The result should return the file at any stage of the conversion process.
 
 5. The API does not need to be stable across multiple calls of `/start`. 
 6. The API must be stable to get a `/result` when calling `/end` and provide partial conversion of the `temps`. IE: Run the `/start` for 10 seconds, call `/end` to stop the conversion and call `/result` to get what has processed so far.
