@@ -1,7 +1,7 @@
 # College Recruiter Interview
 
 
-You will find in a link; a google drive file with temperatures listed as `temps.txt`. These are temperatures listed in celsius. 
+You will find in a link; a [google drive file](https://drive.google.com/file/d/1h94dPj1NnCMZxIom0xlUjmJztVwNAjwM/view?usp=sharing) with temperatures listed as `temps.txt`. These are temperatures listed in celsius. 
 
 Your mission is to create a simple REST API written in Node.js to convert these temperatures to fahrenheit and should include instructions on how to start the program and some core design decisions you made in a brief summary. We don't want this last more than an hour for you at most.
 
@@ -23,3 +23,7 @@ The requirements for the API are as follows:
 5. The API does not need to be stable across multiple calls of `/start`. 
 6. The API must be stable to get a `/result` when calling `/end` and provide partial conversion of the `temps`. IE: Run the `/start` for 10 seconds, call `/end` to stop the conversion and call `/result` to get what has processed so far.
 7. The api can be started again by calling `/start` and the file continues where it left off on the conversion so work is not repeated.
+
+# Submitting your response
+
+Please submit your solution to the email your received your initial response when originally being contacted. Please use a `.zip` format. There is no need to include the `temps` file as we will run your program against the original to save on space. Do also exclude dependencies that can be installed via package managers if you use third party dependencies.
